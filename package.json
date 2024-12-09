@@ -1,0 +1,24 @@
+{
+  "name": "currencyconverterproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "playwright test",
+    "report": "playwright show-report",
+    "test:tag": "playwright test --grep @smoke",
+    "Mac-open:report": "open test-reports/cucumber-report.html",
+    "Windows-open:report": "start test-reports/cucumber-report.html"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
